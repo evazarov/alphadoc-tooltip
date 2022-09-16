@@ -30,28 +30,28 @@ Make sure, `node_modules` is included in the `includePaths` setting. You can the
 
 Using the tooltip is incredibly simple. Simply add a `aria-label` and `role="tooltip"` attribute to the element on which you want the tooltip to appear. The tooltip message is the attribute value `aria-label="your message"`. This along with a position modifier is all you need to get going. Example:-
 ```html
-<button aria-label="Hey tooltip!" data-microtip-position="top" role="tooltip">
+<button aria-label="Hey tooltip!" data-tooltip-position="top" role="tooltip">
 ```
 
 ### Position Modifiers
 
-You can change the direction of the tooltip by adding a `data-microtip-position` attribute. The accepted values of this attribute are:- `top`, `top-left`, `top-right`, `bottom`, `bottom-left`, `bottom-right`, `left` and `right`. Example:-
+You can change the direction of the tooltip by adding a `data-tooltip-position` attribute. The accepted values of this attribute are:- `top`, `top-left`, `top-right`, `bottom`, `bottom-left`, `bottom-right`, `left` and `right`. Example:-
 ```html
-<button aria-label="Hey tooltip!" data-microtip-position="top-left" role="tooltip">
+<button aria-label="Hey tooltip!" data-tooltip-position="top-left" role="tooltip">
 ```
 
 ### Size Modifiers
 
-By default, the tooltip will takeup only the size it requires to show the text. You can specify sizes by adding a `data-microtip-size` attribute. The accepted values include `small`, `medium`, `large` and `fit`. Example:-
+By default, the tooltip will takeup only the size it requires to show the text. You can specify sizes by adding a `data-tooltip-size` attribute. The accepted values include `small`, `medium`, `large` and `fit`. Example:-
 ```html
-<button aria-label="This is a decently long text!" data-microtip-position="top-left" data-microtip-size="medium" role="tooltip">
+<button aria-label="This is a decently long text!" data-tooltip-position="top-left" data-tooltip-size="medium" role="tooltip">
 ```
 
 **Note** - `fit` sets the width of the tooltip to be the same as the width on the element. It only works along with the `top` and `bottom` position modifiers.
 
 ## Customization
 
-Microtip uses **css variables**, which allows you to customize the behavior of the tooltip as per your needs.
+Tooltip uses **css variables**, which allows you to customize the behavior of the tooltip as per your needs.
 
 
 | Variable                        | Description                                        | Default Value |
