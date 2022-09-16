@@ -1,5 +1,5 @@
 {
-  "name": "tooltip",
+  "name": "alphadoc-tooltip",
   "version": "0.0.1",
   "description": "Css tooltip library",
   "style": "tooltip.css",
@@ -12,7 +12,7 @@
   },
   "author": "Alphadoc",
   "license": "MIT",
-  "repository": "https://github.com/evazarov/tooltip",
+  "repository": "https://github.com/evazarov/alphadoc-tooltip",
   "devDependencies": {
     "minifier": "^0.8.1"
   }
