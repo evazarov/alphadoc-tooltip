@@ -1,0 +1,19 @@
+{
+  "name": "tooltip",
+  "version": "0.0.1",
+  "description": "Css tooltip library",
+  "style": "tooltip.css",
+  "keywords": [
+    "tooltip",
+    "css"
+  ],
+  "scripts": {
+    "minify": "minify tooltip.css"
+  },
+  "author": "Alphadoc",
+  "license": "MIT",
+  "repository": "https://github.com/evazarov/tooltip",
+  "devDependencies": {
+    "minifier": "^0.8.1"
+  }
+}
