@@ -12,7 +12,10 @@
   },
   "author": "Alphadoc",
   "license": "MIT",
-  "repository": "https://github.com/evazarov/alphadoc-tooltip",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evazarov/alphadoc-tooltip.git"
+  },
   "devDependencies": {
     "minifier": "^0.8.1"
   }
