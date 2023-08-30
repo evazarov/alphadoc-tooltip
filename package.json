@@ -1,6 +1,6 @@
 {
   "name": "alphadoc-tooltip",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Css tooltip library",
   "style": "tooltip.css",
   "keywords": [
@@ -18,5 +18,8 @@
   },
   "devDependencies": {
     "minifier": "^0.8.1"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.alpha-doc.ru/repository/alphadoc-npm/"
   }
 }

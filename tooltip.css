@@ -209,3 +209,15 @@
     white-space: initial;
     width: 260px;
 }
+
+[role~="tooltip"][data-tooltip-text-align="left"]::after {
+    text-align: left;
+}
+
+[role~="tooltip"][data-tooltip-text-align="center"]::after {
+    text-align: center;
+}
+
+[role~="tooltip"][data-tooltip-text-align="right"]::after {
+    text-align: right;
+}
