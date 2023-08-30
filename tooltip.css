@@ -30,6 +30,7 @@
     font-size: var(--tooltip-font-size, 13px);
     font-weight: var(--tooltip-font-weight, normal);
     text-transform: var(--tooltip-text-transform, none);
+    text-align: var(--tooltip-text-align, center);
     padding: .5em 1em;
     white-space: nowrap;
     box-sizing: content-box;

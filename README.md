@@ -62,6 +62,7 @@ Tooltip uses **css variables**, which allows you to customize the behavior of th
 | `--tooltip-font-size`           | Sets the font size of the text in tooltip          | `13px`        |
 | `--tooltip-font-weight`         | The font weight of the text in tooltip             | `normal`      |
 | `--tooltip-text-transform`      | Controls the casing of the text                    | `none`        |
+| `--tooltip-text-align`          | Sets the alignment of the text in the tooltip      | `center`      |
 
 &nbsp;
 
@@ -74,6 +75,7 @@ Example:-
  --tooltip-font-size: 13px;
  --tooltip-font-weight: bold;
  --tooltip-text-transform: uppercase;
+ --tooltip-text-align: left;
 }
 ```
 
